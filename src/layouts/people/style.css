@@ -1,0 +1,13 @@
+.action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.action-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  
+    padding: 0;
+  }
+  

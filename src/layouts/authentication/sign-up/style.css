@@ -1,0 +1,6 @@
+.card {
+    height: 160px;
+    display: flex;
+    flex-Direction: column;
+    justify-Content: center
+}

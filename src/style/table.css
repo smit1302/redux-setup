@@ -1,0 +1,18 @@
+.table .MuiContainer-root{
+    max-width: 100% !important;
+}
+
+/* .table .MuiDataGrid-main{
+    width: 100%;
+    max-width: 100%;
+} */
+   
+.row .MuiDataGrid-columnHeader {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+/* 
+.MuiDataGrid-columnHeader .MuiDataGrid-columnHeader--sortable .MuiDataGrid-withBorderColor{
+    width: 100%;
+    max-width: 100%;
+} */

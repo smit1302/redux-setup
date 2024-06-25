@@ -1,0 +1,429 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+
+/* pk css 02-04-24 */
+.d_flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.row_bx {
+  margin-top: 0 !important;
+}
+
+.gap_15 {
+  gap: 15px;
+}
+
+.mt-0 {
+  margin-top: 0px !important;
+}
+
+/* .col_item {
+
+} */
+
+.flex_auto {
+  flex: 0 0 auto;
+}
+
+.center {
+  justify-content: center;
+}
+
+.align_center,
+.v-align {
+  align-items: center;
+}
+
+.align_top {
+  align-items: flex-start;
+}
+
+.action_wrap .action-button,
+.button {
+  border-radius: 10px;
+  background: #162d5a;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1;
+  text-transform: capitalize;
+  border: 1px solid transparent;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+  font-weight: 700;
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+  box-shadow: 0px 15px 15px -5px #c4c4c4;
+  text-shadow: none;
+  text-align: center;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  min-width: auto;
+  width: auto;
+  box-shadow: none;
+  margin: 0;
+}
+
+.action_wrap .action-button:hover,
+.button:hover {
+  background: #3e3e46;
+  color: #fff;
+  box-shadow: 0px 15px 15px -5px #162d5aa1;
+}
+
+.button.grey {
+  background: #3e3e46;
+  color: #fff;
+  box-shadow: none;
+}
+
+.button.grey:hover {
+  background: #162d5a;
+  color: #fff;
+}
+
+.mt-30 {
+  margin-top: 30px !important;
+}
+
+.MuiDrawer-docked .MuiDrawer-paper {
+  background: #162d5a !important;
+}
+
+.MuiTypography-root.dropdown_content {
+  background: #1b3870e8;
+}
+
+.link_item .MuiListItem-root .MuiBox-root,
+.child_items .MuiListItem-root .MuiBox-root {
+  margin: 0;
+}
+
+.module_head .form-control input,
+.module_head .form-control label {
+  color: #fff;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.module_wrap .add_btn {
+  min-width: auto;
+  width: 40px;
+  height: 100%;
+  padding: 0;
+}
+
+.module_wrap .add_btn svg {
+  width: 20px;
+  height: 20px;
+}
+
+.export_btn .item_right {
+  flex: 0 0 auto;
+}
+
+.table_custom table tr th,
+.table_custom table tr th>.MuiBox-root {
+  color: #000;
+  opacity: 1;
+  white-space: nowrap;
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 500;
+  text-transform: capitalize;
+  background: #f8f8fa;
+}
+
+.table_custom>.MuiTableContainer-root .MuiBox-root span.MuiTypography-caption {
+  font-size: 12px;
+  text-transform: capitalize;
+  color: #000;
+  font-weight: 500;
+}
+
+/* order detail page */
+.MuiTypography-root,
+.customer_mycust_page *,
+.order_detail_page * {
+  font-size: 14px !important;
+}
+
+.order_dashboard .MuiGrid-item.col_item {
+  padding-top: 0;
+}
+
+.module_wrap .module_head,
+.col_wrap_item .col_heading,
+.order_dashboard .col_heading,
+.col_heading {
+  background: #efefef;
+  color: #162d5a;
+  margin-top: 0;
+  width: 100%;
+  margin: 0;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 10px 15px;
+  display: inline-block;
+}
+
+/* .col_wrap_item .col_heading *,
+.module_wrap .module_head h6,
+.col_wrap_item .col_heading h6,
+.order_dashboard .col_heading h6 */
+.module_wrap .module_head>*,
+.col_wrap_item .col_heading>*,
+.order_dashboard .col_heading>* {
+  color: inherit;
+}
+
+.module_wrap .module_head h6,
+.col_wrap_item .col_heading h6 {
+  font-size: 14px;
+}
+
+.col_wrap_item .content_bx,
+.order_dashboard .content_bx {
+  width: 100%;
+  margin: 0;
+  font-size: 14px;
+}
+
+.order_status_wrap .MuiGrid-root .MuiGrid-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.order_status_wrap .action_wrap {
+  justify-content: center;
+  text-align: center;
+  /* border: 1px solid #eee;
+  padding: 15px 15px; */
+  width: calc(33.33% - 30px / 3);
+  margin: 0;
+  border-radius: 10px;
+}
+
+.order_status_wrap .action_wrap .action-button {
+  height: 80px;
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: none;
+  background: #162d5a08;
+  color: #162d5a;
+  border-color: #162d5a0a;
+}
+
+.order_status_wrap .action_wrap .action-button:hover {
+  background: #162d5a;
+  color: #fff;
+}
+
+.order_status_wrap .action_wrap .action-button svg {
+  width: 36px;
+  height: 36px;
+}
+
+.order_status_wrap .action_wrap p {
+  width: 100%;
+  font-size: 14px;
+  line-height: 1.3;
+  font-weight: 500;
+}
+
+.col_bx_inner .col_p>div {
+  width: 100%;
+}
+
+.nav_tabs.MuiTabs-root {
+  background: #162d5a;
+}
+
+.nav_tabs .MuiTabs-flexContainer .MuiButtonBase-root {
+  color: #fff !important;
+  font-weight: 500;
+  font-size: 14px;
+  box-shadow: none;
+  padding: 10px;
+}
+
+.nav_tabs .MuiTabs-flexContainer .MuiButtonBase-root.Mui-selected {
+  color: #162d5a !important;
+  background: #f8f8fa;
+  font-weight: 600;
+}
+
+/* form ps */
+.form_ps .form-group {
+  margin-bottom: 40px
+}
+
+.form_ps .lbl {
+  font-size: 15px;
+  line-height: 1;
+  color: #000;
+  margin-bottom: 10px;
+  width: 100%
+}
+
+.form_ps .form-control {
+  /* height: 50px; */
+  padding: 10px 20px;
+  border: 1px solid #bccde4;
+  font-size: 16px;
+  color: #000;
+  border-radius: 8px;
+  box-shadow: none;
+  margin: 0
+}
+
+.form_ps .form-control.border_bottom {
+  border: 0;
+  border-bottom: 2px solid #eef1f4;
+  border-radius: 0;
+  padding-left: 0;
+  padding-right: 0
+}
+
+.form_ps textarea.form-control {
+  height: 122px;
+  resize: none
+}
+
+.form_ps .form-control:focus {
+  box-shadow: none;
+  border-color: #00112d
+}
+
+.form_ps .form-control::placeholder {
+  color: #96a0b5
+}
+
+/* .form-control.select_pk,
+.select_pk {
+  appearance: none;
+  background-image: url(../images/arrow-right-dark.svg);
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  display: inline-block;
+  background-position: right;
+  background-origin: content-box
+} */
+
+
+
+
+/* media css */
+
+@media screen and (max-width: 1400px) {
+  .module_wrap .module_head {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .module_head .form-control label {
+    line-height: 1;
+    margin-top: -2px;
+  }
+
+  .module_head .form-control {
+    height: 40px;
+  }
+
+  .module_head .form-control .MuiInputBase-root {
+    height: 100%;
+  }
+
+}
+
+@media screen and (max-width: 575px) {
+  .module_wrap .module_head>.MuiTypography-root {
+    flex-wrap: wrap;
+  }
+
+  .module_wrap .module_head .form-group {
+    width: 100%;
+    margin-top: 5px;
+  }
+
+
+}
+
+
+input[type=date]::-webkit-datetime-edit-text {
+  -webkit-appearance: none;
+  display: none;
+}
+
+input[type=date]::-webkit-datetime-edit-month-field {
+  -webkit-appearance: none;
+  display: none;
+}
+
+input[type=date]::-webkit-datetime-edit-day-field {
+  -webkit-appearance: none;
+  display: none;
+}
+
+input[type=date]::-webkit-datetime-edit-year-field {
+  -webkit-appearance: none;
+  display: none;
+}
+
+.MuiTextField-root.has-value input[type=date]::-webkit-datetime-edit-text,
+.MuiTextField-root.has-value input[type=date]::-webkit-datetime-edit-month-field,
+.MuiTextField-root.has-value input[type=date]::-webkit-datetime-edit-day-field,
+.MuiTextField-root.has-value input[type=date]::-webkit-datetime-edit-year-field {
+  display: initial;
+}
