@@ -1,0 +1,10 @@
+
+.InputWithMargin div{
+  
+    margin-bottom: 10px; 
+  
+  }
+  .grid{
+    justify-Content:center ;
+    align-Items:center
+  }
